@@ -1,6 +1,6 @@
 import {chromium, test} from "@playwright/test";
 
-
+// traditional way using Playwright Library
 test('Login test demo', async function() {
 
     const baseUrl = 'https://ecommerce-playground.Lambdatest.io/'
@@ -28,5 +28,5 @@ test('Login test demo', async function() {
     const page1 = await context.newPage()
     await page1.goto(`${baseUrl}/index.php?reoute=account/login`)
     await page.waitForTimeout(5000)
-
+    await browser.close()
 })

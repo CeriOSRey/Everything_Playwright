@@ -20,5 +20,8 @@
   "homepage": "https://github.com/CeriOSRey/Everything_Playwright#readme",
   "devDependencies": {
     "@playwright/test": "^1.29.2"
+  },
+  "dependencies": {
+    "moment": "^2.29.4"
   }
 }
