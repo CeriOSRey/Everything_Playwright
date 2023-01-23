@@ -39,3 +39,8 @@
 - CTRL . for quickfix
 
 - by default Playwright runner will open and close the browser. No need to handle that in beforeEach and afterEach.
+
+- handling JSON in Typescript is
+    - import it with alias and you can access the properties
+    - import * as userdata from "../data/userdata.json"
+    - userdata.firstname
