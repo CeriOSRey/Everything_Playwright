@@ -9,6 +9,9 @@
     - npm init playwright@latest -- --quiet --browser=chromium --browser=firefox --browser=webkit
 
 - After installation you can run several commands:
+    
+    - npx playwright install
+        - this will install all the webdrivers. **NEED TO RUN THIS AFTER A GIT CLONE**
     - npx playwright test 
         - runs end to end tests
     - npx playwright test --project=chromium 
